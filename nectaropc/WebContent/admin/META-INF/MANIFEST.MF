@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+
+Name: PopupNavigator/PopupNavigatorApplet.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: m/1//sv8L2aGp4Ggq20aMJIy3dA=
+MD5-Digest: SR8/td4cLnp8IK2qBt6LOg==
+
+Name: PopupNavigator/PopupNavigatorMenu.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: JV87BrJ7St2nLQt428C3eqblUq0=
+MD5-Digest: w4AcFTiOIdqBJv5PQClV6w==
+
+Name: PopupNavigator/PopupNavigatorMenuItem.class
+Digest-Algorithms: SHA MD5 
+SHA-Digest: 5eYhVEEEUo5pWxq0uL6pH+Qo1ac=
+MD5-Digest: 2zaK7eVtR0rsb0qagVP0Mw==
+

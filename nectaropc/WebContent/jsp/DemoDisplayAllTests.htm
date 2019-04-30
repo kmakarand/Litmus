@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0071)http://172.16.3.102:8080/almbse/jsp/Forward.jsp?total=1&rtest=31&dt31=1 -->
+<!--
+Developer    : Rehan S. Mohammed
+Organisation : Nectar Global Services
+Project Code : ZALM
+DOS	         : 02 - 02 - 2001
+DOE          : 30 - 06 - 2001
+--><HTML><HEAD><TITLE>Display all Tests</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK
+href="DemoDisplayAllTests_files/alm.css" type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript src="DemoDisplayAllTests_files/common.js"></SCRIPT>
+
+<SCRIPT>
+function checkselect()
+{
+
+	var flag=0;
+
+
+	var p = "document.displaytest.rtestname";
+	if(eval(p).checked==false)	 flag=0;
+	if(eval(p).checked)			 flag=1;
+
+
+	if(flag==0) {alert('Please select the test');return false;}
+	if(flag==1) document.displaytest.submit();
+}
+
+</SCRIPT>
+
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY>
+<FORM name=displaytest action=DemoTest.jsp method=get>
+<P>&nbsp;</P>
+<TABLE cellSpacing=1 cellPadding=1 align=center border=0>
+  <TBODY>
+  <TR>
+    <TH>Tests available for you</TH></TR>
+    <TR><TD align=center>Language:  <SELECT NAME=lang>
+		<OPTION VALUE=English>English</OPTION>
+		<OPTION VALUE=Spanish>Spanish</OPTION>
+		<OPTION VALUE=French>French</OPTION>
+		</SELECT></TD></TR>
+  <TR>
+    <TD><INPUT type=hidden value=1 name=dt>
+      <TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+        <TBODY>
+        <TR>
+          <TD><INPUT type=radio value=1 name=rtestname>Demo test to get you started<INPUT type=hidden value=1 name=Sections1>
+          </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TH><INPUT onclick="return checkselect()" type=button value=Submit></TH></TR></TBODY></TABLE></FORM></BODY></HTML>

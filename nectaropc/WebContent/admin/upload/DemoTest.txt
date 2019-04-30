@@ -1,0 +1,50 @@
+Permanent Account Number (PAN) has ..:4:8 Alfa-numeric digits:9 Alfa-numeric digits:10 Alfa-numeric digits:12 Alfa-numeric digits:NA:3
+Tax Deducted at Source by the employer from the salary of employee is certified by using ..:4:Form No. 16:Form No. 16A:Form No. 16B:Form No. 16C:NA:1
+The currency of South Africa is ..:4:Dollar:Euro:Riyal:Rand:NA:4
+The currency of United Sates of America is ..:4:Dollar:Euro:Franc:Dinar:NA:1
+How many banks were nationalized in India in the year 1969?:4:12:14:15:16:NA:2
+How many subsidiary banks State Bank of India has?:4:6:7:8:9:NA:2
+Member of the Depository is called as ..:4:Depository Agent.:Depository Participant.:Depository Manager.:None of these.:NA:2
+Total number of Depositories in India is ..:4:One:Two:Five:Seven:NA:2
+Professional Tax is levied by ..:4:State Government.:Central Government.:Reserve Bank of India.:Central Board for Direct Taxes.:NA:1
+Excise Duty Tax is applicable to ..:4:Manufacturing industry.:Service Industry.:Both.:None of these.:NA:1
+Food you eat in restaurant attracts ..:4:Service Tax.:Value Added Tax.:Entertainment Tax.:None of these.:NA:2
+Tree Tax is levied by ..:4:Central Government.:State Government.:Local Body.:None of these.:NA:3
+The Oriental Insurance Company Ltd. is ..:4:Life Insurance Company:General Insurance Company:Both of these.:None of these.:NA:2
+Term Life Insurance policy benefits ..:4:Only policyholder.:Only survivor.:Both of them.:None of them.:NA:1
+IRDA is ..:4:Private Limited Company.:Public Limited Company.:Regulatory Authority:None of these.:NA:3
+Validity of Cheque is for ..:4:1 month.:3 months.:6 months:12 months.:NA:2
+Mutilated Cheque means ..:4:Post Dated Cheque.:Stale Cheque.:At par Cheque.:Damaged Cheque.:NA:4
+Inflation ..:4:Reduces purchasing power of money.:Increases purchasing power of money.:Does not affect purchasing power of money.:None of these.:NA:1
+Foreign Currency Non Resident A/c is ..:4:Savings Bank Account.:Current Account.:Term Deposit Account.:All of these.:NA:3
+Debit Card is ..:4:Prepaid Card.:Post paid Card.:Both of these.:None of these.:NA:1
+Purchases on credit are possible with ..:4:Credit Card.:Debit Card.:Both of these.:None of these.:NA:1
+While taking ‘Housing Loan’, you:4:Hypothecate the property.:Pledge the property.:Mortgage the property.:All of these.:NA:3
+While taking ‘Vehicle Loan’, you :4:Hypothecate the vehicle.:Pledge the vehicle.:Mortgage the vehicle.:All of these.:NA:1
+While taking ‘Gold Loan’, you :4:Hypothecate the gold.:Pledge the gold.:Mortgage the gold.:All of these.:NA:2
+Aim of ‘Balanced Fund’ is ..:4:To provide Growth.:To provide Income.:To Provide Both.:To provide Capital Gain.:NA:3
+‘Gilt Funds’ invest money in ..:4:Equity Shares.:Debentures.:Government securities.:All of these.:NA:3
+SMART Goal is ..:4:Always measurable.:Never measurable.:Sometimes measurable.:None of these.:NA:1
+Risk Reward ratio is based on ..:4:Reward for future gains.:Reward for scarifying today’s satisfaction.:Reward for bearing various risks.:All of these.:NA:4
+‘Treasury Bill’ is an instrument issued by ..:4:Central Government:State Government:Reserve Bank of India:Securities and Exchange Board of India:NA:3
+‘S’ In SMART goal stands for ..:4:Smart.:Specific.:Social.:Similar.:NA:2
+Aim of financial planning is to ..:4:Get maximum return with maximum risk.:Get minimum return with maximum risk.:Get maximum return with minimum risk.:Get minimum return with minimum risk.:NA:3
+Can ‘Savings’ be considered as an ‘Investment’?:4:Yes:No:NA:NA:NA:2
+Financial Planning is the process of proper management of your finance for meeting ..:4:Your career goals.:Your education goals.:Your life goals.:Your health goals.:NA:3
+It is advisable to take higher risk at younger age because ..:4:You have longer time to take corrective steps.:You have lesser time to take corrective steps.:You have lots of enthusiasm.:You have enough money to take risk.:NA:1
+The important factor for financial planning is ..:4:Gross Saving:Net Savings:Total Savings:Partial Savings:NA:2
+Using Rule 72 @ 15% interest rate, your money gets doubled in ..:4:3.2  years:3.6 years:4.8 years:5.2 years:NA:3
+Using Rule 72 @ 20% interest rate, your money gets doubled in ..:4:3.2  years:3.6 years:4.8 years:5.2 years:NA:2
+‘Needs’ are related with ..:4:Necessities:Desires:Dreams:None of these.:NA:1
+‘Wants’ are related with ..:4:Necessities:Desires:Dreams:None of these.:NA:2
+Insurance Policy is a contract between ..:4:Agent and Applicant:Insurance Company and Agent:Insurer and Insured:Buyer and Seller:NA:3
+The BSE index ‘SENSEX’ is based on price of ..:4:20 shares:30 shares:40 shares:50 shares:NA:2
+The NSE index ‘NIFTY’ is based on price of  ..:4:20 shares:30 shares:40 shares:50 shares:NA:4
+The primary benefit of the mutual fund is ..:4:Diversity:Less investment:No risk:No attention required:NA:1
+Compounding interest rewards investor best in ..:4:Short term:Medium term:Long term:None of these.:NA:3
+In Gold ETFs you possess actual gold.:4:True:False:NA:NA:NA:2
+Do you carry risk of storage of gold in Gold ETFs?:4:Yes:No:NA:NA:NA:2
+Which of the following document is not accepted for Photo Identity?:4:Passport:PAN Card:Ration Card:Election Commission I-Card:NA:3
+Which of the following document is not accepted for Address Proof:4:MSEB Electricity Bill:BSNL Telephone Bill:PAN Card:None of these:NA:3
+Deposits with banks are insured with DICGC to the extent of ..:4:Rs. 50,000/-:Rs. 1,00,000/-:Rs. 5,00,000/-:Full amount:NA:2
+Stock Markets in India are regulated by..:4:R.B.I.:SEBI.:IRDA.:None of these.:NA:2

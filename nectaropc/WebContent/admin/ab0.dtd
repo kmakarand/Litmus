@@ -1,0 +1,22 @@
+<!ELEMENT IITQuestionMaster (person)>
+<!ELEMENT person (QuestionID,CodeID,PartyID,Question,ExamType,NoOfOptions,Option1,Option2,Option3,Option4,Option5,Answer,Explanation,Level,ExamID,UpdateValidityDate,Status,Image,ResonableTime)>
+<!ELEMENT QuestionID (#PCDATA)>
+<!ELEMENT CodeID (#PCDATA)>
+<!ELEMENT PartyID (#PCDATA)>
+<!ELEMENT Question (#PCDATA)>
+<!ELEMENT ExamType (#PCDATA)>
+<!ELEMENT NoOfOptions (#PCDATA)>
+<!ELEMENT Option1 (#PCDATA)>
+<!ELEMENT Option2 (#PCDATA)>
+<!ELEMENT Option3 (#PCDATA)>
+<!ELEMENT Option4  (#PCDATA)>
+<!ELEMENT Option5  (#PCDATA)>
+<!ELEMENT Answer (#PCDATA)>
+<!ELEMENT Explanation (#PCDATA)>
+<!ELEMENT Level (#PCDATA)>
+<!ELEMENT ExamID (#PCDATA)>
+<!ELEMENT UpdateValidityDate (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT Image (#PCDATA)>
+<!ELEMENT ResonableTime (#PCDATA)>
+

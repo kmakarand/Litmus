@@ -1,0 +1,180 @@
+<html>
+<!-- #BeginTemplate "/Templates/BseTemplate.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Test details</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="alm.css" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<!-- #BeginEditable "BodyRegion" --> 
+<center>
+  <p> Define new test for <b>(Exam Name)</b>
+  <form action=/rlms/servlet/ExamMasterManager method='post'>
+    <table border=0 cellspacing=1 cellpadding=1 width="85%">
+      <tr> 
+        <th colspan=2><b>New Test Details</b></th>
+      </tr>
+      <tr> 
+        <td align=right width="65%"><b>Test Name :&nbsp;</b></td>
+        <td width="35%"> 
+          <input type=text name=TestName>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Timer Type :&nbsp;</b></td>
+        <td> 
+          <select name=TimerType>
+            <option value=1>Question Timer</option>
+            <option value=2>Section Timer</option>
+            <option value=3 selected>Exam Timer</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Question Time :&nbsp;</b></td>
+        <td> 
+          <input type=text name=QuestionTime>
+          (in seconds)</td>
+      </tr>
+      <tr> 
+        <td align=right><b>Total Time of the Test :&nbsp;</b></td>
+        <td> 
+          <input type=text name=ExamTime>
+          (in seconds) </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Negative Marks :&nbsp;</b></td>
+        <td> 
+          <input type=text name=NegativeMarks>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Minimum percentage required to pass this test :&nbsp;</b></td>
+        <td> 
+          <input type=text name=Criteria>
+          (percentage) </td>
+      </tr>
+      <tr> 
+        <td align=right><b>No Of Breaks Allowed :&nbsp;</b></td>
+        <td> 
+          <input type="text" name="textfield">
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Break Interval :&nbsp;</b></td>
+        <td> 
+          <select name="select">
+            <option>05 min</option>
+            <option>10 min</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>No Of Attempts Allowed :&nbsp;</b></td>
+        <td> 
+          <input type=text name=NoOfAttemptsAllowed>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Do you want to display Sections to user :&nbsp;</b></td>
+        <td> 
+          <select name=DisplaySections>
+            <option value=1>Yes</option>
+            <option value=0 selected>No</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Is this Adaptive test :&nbsp;</b></td>
+        <td> 
+          <select name=Adaptive>
+            <option value=1>Yes</option>
+            <option value=0 selected>No</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>No of successive correct answers to change to next 
+          higher level :&nbsp;</b></td>
+        <td> 
+          <select name=UpLimit>
+            <option value='1' selected>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+            <option value='5'>5</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>No of successive incorrect answers to change to immediate 
+          lower level :&nbsp;</b></td>
+        <td> 
+          <select name=DownLimit>
+            <option value='1' selected>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+            <option value='5'>5</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <th align=center colspan=2> 
+          <input type='hidden' name=action value=doAddTest>
+          <input type='hidden' name=ExamID value=12>
+          <input type=submit value='Add Details'>
+          &nbsp;&nbsp;&nbsp; 
+          <input type=button value=Cancel onClick='javascript:history.back()'>
+        </th>
+      </tr>
+    </table>
+  </form>
+<p> 
+  <hr size=1>
+  <br>
+  <table border=0 cellspacing=1 cellpadding=1 align="center">
+    <tr> 
+      <th colspan=6>Existing Test Defined for (Exam Name)</th>
+    </tr>
+    <tr> 
+      <th>Test Name</th>
+      <th>Timer Type</th>
+      <th>Display Sections</th>
+      <th>Adaptive</th>
+      <th>Delete</th>
+      <th>Section Details</th>
+    </tr>
+    <tr> 
+      <td><a href='/rlms/servlet/ExamMasterManager?action=UpdateTest&SectionID=1'>One</a></td>
+      <td align="center">Exam Timer</td>
+      <td align="center">Yes</td>
+      <td align="center">Yes</td>
+      <td><a href='/rlms/servlet/ExamMasterManager?action=DeleteTest&TestCode=8&ExamID=12&SectionID=1'>Delete</a></td>
+      <td><a href="ExamManager2.htm">Section Details</a></td>
+    </tr>
+    <tr> 
+      <td><a href='/rlms/servlet/ExamMasterManager?action=UpdateTest&SectionID=3'>three 
+        half</a></td>
+      <td align="center">Question Timer</td>
+      <td align="center">No</td>
+      <td align="center">No</td>
+      <td><a href='/rlms/servlet/ExamMasterManager?action=DeleteTest&TestCode=8&ExamID=12&SectionID=3'>Delete</a></td>
+      <td><a href="ExamManager2.htm">Section Details</a></td>
+    </tr>
+    <tr> 
+      <td><a href='/rlms/servlet/ExamMasterManager?action=UpdateTest&SectionID=2'>Two</a></td>
+      <td align="center">Exam Timer</td>
+      <td align="center">No</td>
+      <td align="center">No</td>
+      <td><a href='/rlms/servlet/ExamMasterManager?action=DeleteTest&TestCode=8&ExamID=12&SectionID=2'>Delete</a></td>
+      <td><a href="ExamManager2.htm">Section Details</a></td>
+    </tr>
+  </table>
+</center>
+<!-- #EndEditable --> 
+</body>
+<!-- #EndTemplate -->
+</html>

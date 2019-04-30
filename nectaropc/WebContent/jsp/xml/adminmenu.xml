@@ -1,0 +1,12 @@
+<menus>
+	<menu name="Profile" id="1">
+	    <menu name="Logout" id="1.1" href="../jsp/Logout.jsp"/>
+	</menu>
+	<menu name="Administration" id="2">
+    <menu name="Student Profile" id="2.1" href="../admin/studprofreq.jsp"></menu>
+	</menu>
+	<menu name="Help" id="3">
+		<menu name="About Us" id="3.1" href="../jsp/NectarDemoPresentation.jsp"></menu>
+		<menu name="Contact Us" id="3.2" href="../jsp/ContactUs.htm"></menu>
+	</menu>
+</menus>

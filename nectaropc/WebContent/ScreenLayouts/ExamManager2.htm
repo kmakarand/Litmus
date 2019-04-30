@@ -1,0 +1,161 @@
+<html>
+<!-- #BeginTemplate "/Templates/BseTemplate.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Section details</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="alm.css" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<!-- #BeginEditable "BodyRegion" --> 
+<center>
+  Define new test. 
+  <form action=/rlms/servlet/ExamMasterManager method='post'>
+    <table border=0 cellspacing=1 cellpadding=1>
+      <tr> 
+        <th colspan=2><b>New Section Details</b></th>
+      </tr>
+      <tr> 
+        <td align=right><b>SectionName :&nbsp;</b></td>
+        <td> 
+          <input type=text name=SectionName>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Subjects :&nbsp;</b></td>
+        <td> 
+          <select name="select4">
+            <option>Select Subject</option>
+            <option>Physics</option>
+            <option>Chemistry</option>
+            <option>Mathematics</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Chapter : </b></td>
+        <td> 
+          <select name="select">
+            <option>None</option>
+            <option>Light</option>
+            <option>Gravity</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Topic : </b></td>
+        <td> 
+          <select name="select2">
+            <option>None</option>
+            <option>Light 1</option>
+            <option>Light 2</option>
+            <option>Gravitational Force</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>SubTopic : </b></td>
+        <td> 
+          <select name="select3">
+            <option>None</option>
+            <option>What is Light ?</option>
+            <option>What is G ?</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>No Of Questions:&nbsp;</b></td>
+        <td> 
+          <input type=text name=NoOfQuestions>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>SectionTime :&nbsp;</b></td>
+        <td> 
+          <input type=text name=SectionTime>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Level :&nbsp;</b></td>
+        <td> 
+          <select name=Level>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>IncludeSublevels :&nbsp;</b></td>
+        <td> 
+          <select name=IncludeSublevels>
+            <option value=1>Yes</option>
+            <option value=0 selected>No</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <th align=center colspan=2> 
+          <input type='hidden' name=action value=doAddTest>
+          <input type='hidden' name=ExamID value=12>
+          <input type=submit value='Add Details'>
+          &nbsp;&nbsp;&nbsp; 
+          <input type=button value=Cancel onClick='javascript:history.back()'>
+        </th>
+      </tr>
+    </table>
+  </form>
+</center>
+<p>
+<hr size=1>
+<br>
+<table border=0 cellspacing=1 cellpadding=1 align="center">
+  <tr> 
+    <th colspan=8>Existing sections defined for (Test Name)</th>
+  </tr>
+  <tr> 
+    <th>Section Name</th>
+    <th>Subject</th>
+    <th>Chapter</th>
+    <th>Topic</th>
+    <th>Sub Topic</th>
+    <th>No Of Questions</th>
+    <th>Level</th>
+    <th>Delete</th>
+  </tr>
+  <tr> 
+    <td>one fourth</td>
+    <td align="center">Physics</td>
+    <td align="center">Light</td>
+    <td align="center">Light1</td>
+    <td align="center">None</td>
+    <td align="center">3</td>
+    <td align="center">Low</td>
+    <td><a href='/rlms/servlet/ExamMasterManager?action=DeleteTest&TestCode=8&ExamID=12&SectionID=1'>Delete</a></td>
+  </tr>
+  <tr> 
+    <td>three</td>
+    <td align="center">Physics</td>
+    <td align="center">Gravity</td>
+    <td align="center">Gravitational Force</td>
+    <td align="center">What is G ?</td>
+    <td align="center">3</td>
+    <td align="center">Low</td>
+    <td><a href='/rlms/servlet/ExamMasterManager?action=DeleteTest&TestCode=8&ExamID=12&SectionID=3'>Delete</a></td>
+  </tr>
+  <tr> 
+    <td>two half</td>
+    <td align="center">Chemistry</td>
+    <td align="center">None</td>
+    <td align="center">None</td>
+    <td align="center">None</td>
+    <td align="center">3</td>
+    <td align="center">High</td>
+    <td><a href='/rlms/servlet/ExamMasterManager?action=DeleteTest&TestCode=8&ExamID=12&SectionID=2'>Delete</a></td>
+  </tr>
+</table>
+<!-- #EndEditable --> 
+</body>
+<!-- #EndTemplate -->
+</html>

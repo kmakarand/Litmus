@@ -1,0 +1,124 @@
+BODY
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica;
+    BACKGROUND-COLOR: #fef9e2
+}
+TABLE
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-COLOR: #000000
+}
+TR
+{
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #fef9e2
+}
+TH
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: tan
+}
+TD
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #fef9e2
+}
+INPUT
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial
+}
+TEXTAREA
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial
+}
+SELECT
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial
+}
+HR
+{
+    COLOR: #000000;
+    HEIGHT: 1px
+}
+.marksheet
+{
+}
+.marksheet TABLE
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-COLOR: #000000
+}
+.marksheet TH
+{
+    FONT-SIZE: 15px;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: tan
+}
+.marksheet TD
+{
+    FONT-SIZE: 15px;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #fef9e2
+}
+.marksheet TR
+{
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #fef9e2
+}
+.result TABLE
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-COLOR: #000000
+}
+.result TH
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 18px;
+    BACKGROUND-COLOR: tan
+}
+.result TD
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial;
+    HEIGHT: 16px;
+    BACKGROUND-COLOR: #fef9e2
+}
+.true
+{
+    BACKGROUND-COLOR: limegreen
+}
+.false
+{
+    BACKGROUND-COLOR: red
+}
+.clsNavigation INPUT
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial;
+	WIDTH: 150px;
+}
+.clsRecheck INPUT
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial;
+	WIDTH: 200px;
+}

@@ -1,0 +1,6 @@
+body { font-family:verdana ; font-size:12px ; background-color:#6699CC}
+tr { font-family:verdana ; font-size:12px ; font-weight:bold ; background-color:#6699CC ; color:#000000}
+td { font-family:verdana ; font-size:12px ; font-weight:normal ; background-color:#6699CC ; color:#000000 }
+th { font-family:Arial ; font-size:11px ; font-weight:bold ; background-color:#336699 ; color:#FFFFFF }
+a { font-family:Arial ; font-size:12px ; font-weight:normal ;  color:#FFFFFF; text-decoration:none }
+a:Hover { font-family:Arial ; font-size:12px ; font-weight:normal ;  color:#FFFFCC }

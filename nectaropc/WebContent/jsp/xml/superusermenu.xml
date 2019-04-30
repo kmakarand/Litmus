@@ -1,0 +1,39 @@
+<menus>
+<menu name="Profile" id="1">
+    <menu name="Edit" id="1.1" href="../jsp/editcandidate.jsp"/>
+    <menu name="Delete" id="1.2" href="../jsp/DeleteUser.jsp"/>
+    <menu name="Change Password" id="1.3" href="../jsp/changepassword.jsp"/>
+    <menu name="Logout" id="1.4" href="../jsp/Logout.jsp"/>
+</menu>
+	<menu name="Exam" id="2" >
+		<menu name="Exam Master" id="2.1" href="../admin/ExamMaster.jsp"></menu>
+		<menu name="Add Question Bank" id="2.2" href="../admin/AddQuestionBank.jsp"></menu>
+		<menu name="Add Schedule Exam" id="2.3" href="../jsp/addscheduleform.jsp"></menu>
+		<menu name="Category Master" id="2.4" href="../jsp/categorymaster.jsp"></menu>
+		<menu name="Remark Master" id="2.5" href="../admin/RemarkDetails.jsp"></menu>
+		<menu name="Question Master" id="2.6" href="../jsp/Questions.jsp"></menu>
+		<menu name="Question Editor" id="2.7" href="../admin/previewQSelect.jsp"></menu>
+	</menu>
+	<menu name="Administration" id="3">
+    <menu name="Client/Centre Registration" id="3.1" href="../jsp/clientregistrationform.jsp"></menu>
+    <menu name="List Schedule Exam" id="3.2" href="../servlet/ListSchedule"></menu>
+    <menu name="Student Profile" id="3.3" href="../admin/studprofreq.jsp"></menu>
+    <menu name="Assign Centre" id="3.4" href="../jsp/AssignCentre.jsp"></menu>
+    <menu name="Rights To Group" id="3.5" href="../admin/allotGroup.jsp"></menu>
+    <menu name="Group To User" id="3.6" href="../admin/allotRights.jsp"></menu>
+    <menu name="Database Editor" id="3.7" href="../admin/teditor.jsp"></menu>
+</menu>
+<menu name="Reports" id="4">
+    <menu name="Username/Password List" id="4.1" href="../jsp/UserDetails.jsp">
+    	<menu name="Candidate Master List" id="4.2" href="../jsp/candidatelist.jsp"/>
+        <menu name="Postponement Details" id="4.3" href="../jsp/PostponementDetails.jsp"/>
+    </menu>
+<menu name="Slot Availability Chart" id="4.4" href="../jsp/SlotManager.jsp"></menu>
+<menu name="Monthly Summary Chart" id="4.5" href="../jsp/Monthly_Summary.jsp">
+</menu>
+</menu>
+	<menu name="Help" id="5">
+		<menu name="About Us" id="5.1" href="../jsp/NectarDemoPresentation.jsp"></menu>
+		<menu name="Contact Us" id="5.2" href="../jsp/ContactUs.htm"></menu>
+	</menu>
+</menus>

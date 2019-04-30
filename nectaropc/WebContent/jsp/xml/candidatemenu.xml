@@ -1,0 +1,14 @@
+<menus>
+<menu name="Profile" id="1">
+    <menu name="Logout" id="1.1" href="../jsp/Logout.jsp"/>
+</menu>
+<menu name="Exam" id="2">
+    <menu name="Take A Test" id="2.1" href="../jsp/LoadTest.jsp"></menu>
+    <menu name="Performance" id="2.2">
+    	<menu name="Performance Analysis" id="2.2.1" href="../jsp/analysis.jsp"></menu></menu>
+</menu>
+<menu name="Help" id="3">
+		<menu name="About Us" id="3.1" href="../jsp/NectarDemoPresentation.jsp"></menu>
+		<menu name="Contact Us" id="3.2" href="../jsp/ContactUs.htm"></menu>
+</menu>
+</menus>

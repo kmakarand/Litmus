@@ -1,0 +1,50 @@
+<menus>
+<menu name="Profile" id="1">
+    <menu name="Edit" id="1.1" href="save.jsp"/>
+    <menu name="Delete" id="1.2" href="save.jsp"/>
+    <menu name="Change Password" id="1.3" href="save.jsp"/>
+    <menu name="Logout" id="1.4" >
+        <menu name="Page" id="1.4.1">
+            <menu name="Page By link" id="1.4.1" href="Pahe.jsp"/>
+            <menu name="Page By link2" id="1.4.2" href="Pahe.jsp"/>
+            <menu name="Page Collection" id="1.4.3">
+                <menu name="Page By link1.4.3.1" id="1.4.3.1" href="Page.jsp"/>
+            </menu>
+        </menu>
+    </menu>
+</menu>
+<menu name="Exam" id="2">
+    <menu name="Exam" id="2.1" href="ExamMaster.jsp"></menu>
+    <menu name="Add Question Bank" id="2.2"></menu>
+    <menu name="Add Schedule Exam" id="2.3"></menu>
+    <menu name="Category Master" id="2.4" href="categorymaster.jsp"></menu>
+    <menu name="Remark Master" id="2.5"></menu>
+    <menu name="Question Master" id="2.6"></menu>
+    <menu name="Question Editor" id="2.7"></menu>
+</menu>
+<menu name="Administration" id="3">
+    <menu name="Client/Centre Registration" id="3.1">
+    </menu>
+    <menu name="List Schedule Exam" id="3.2"></menu>
+    <menu name="Student Profile" id="3.3"></menu>
+    <menu name="Assign Centre" id="3.4"></menu>
+    <menu name="Rights To Group" id="3.5"></menu>
+    <menu name="Group To User" id="3.6"></menu>
+    <menu name="Database Editor" id="3.7"></menu>
+</menu>
+<menu name="Reports" id="4">
+    <menu name="Username/Password List" id="4.1">
+    
+    
+        <menu name="Candidate Master List" id="4.2" href="split.jsp"/>
+        <menu name="Postponement Details" id="4.3" href="merge.jsp"/>
+    </menu>
+<menu name="Slot Availability Chart" id="4.4"></menu>
+<menu name="Monthly Summary Chart" id="4.5">
+</menu>
+</menu>
+	<menu name="Help" id="5">
+		<menu name="About Us" id="5.1"></menu>
+		<menu name="User Help" id="5.2"></menu>
+		<menu name="Contact Us" id="5.3"></menu></menu>
+</menus>

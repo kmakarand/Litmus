@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>Registartion</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT LANGUAGE="javascript">
+var windowHandle = '';
+//<!--
+function OpenWin(url)
+{
+	//var testWin = window.open (url, "TestWindow", "width=750, height=500, resizable=1, status=0, scrollbars=yes, toolbar=no, locationbar=no, menubar=no, left=20, top=0");
+	//var testWin = window.open (url, "TestWindow", "width=" + screen.availWidth+", height=" + screen.availHeight +", resizable=1, status=1, scrollbars=yes, toolbar=no, locationbar=no, menubar=no, left=0, top=0");
+	//windowHandle = window.open(url,'popup','fullscreen=no,outerHeight=' + screen.availHeight + ',outerWidth=' + screen.availWidth);
+
+	var stpos=(screen.availWidth-500)/2;
+	var stpos1=(screen.availHeight-200)/2;	
+	window.open(url,"","toolbar=no,width=500,height=350,scrollbars=yes,left=150,top=100,status=1,resizable=0");
+}
+//-->
+</SCRIPT>
+<link rel="stylesheet" href="alm.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p align="center"><b>REGISTRATION FORM FOR BCDE PROGRAMME</b></p>
+<form name="form1" method="post" action="">
+  <table border="0" cellspacing="1" cellpadding="1" align="center" width="85%">
+    <tr> 
+      <td> 
+        <div align="right">First Name :</div>
+      </td>
+      <td> 
+        <input type="text" name="textfield">
+      </td>
+      <td> 
+        <div align="right">Last Name :</div>
+      </td>
+      <td> 
+        <input type="text" name="textfield2">
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <div align="right">Birth Date :</div>
+      </td>
+      <td> 
+        <div align="left">
+          <select name="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          - 
+          <select name="select2">
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">March</option>
+          </select>
+          - 
+          <input type="text" name="textfield5" maxlength="4" size="4">
+        </div>
+      </td>
+      <td> 
+        <div align="right">Sex :</div>
+      </td>
+      <td> 
+        <select name="select3">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </td>
+    </tr>
+    <tr> 
+      <th> 
+        <div align="right">Office address details:</div>
+      </th>
+      <td>&nbsp;</td>
+      <th> 
+        <div align="right">Home address details :</div>
+      </th>
+      <td><a href="javascript:OpenWin('AddressManager.htm')">Add Address</a></td>
+    </tr>
+    <tr> 
+      <td valign="top"> 
+        <div align="right"> Address :</div>
+      </td>
+      <td> 
+        <textarea name="textfield3" cols="20" rows="5"></textarea>
+      </td>
+      <td valign="top"> 
+        <div align="right"> Address :</div>
+      </td>
+      <td> 
+        <textarea name="textfield4" cols="20" rows="5"></textarea>
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <div align="right">Street :</div>
+      </td>
+      <td>&nbsp;</td>
+      <td> 
+        <div align="right">Street :</div>
+      </td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td height="2"> 
+        <div align="right">Telephone :</div>
+      </td>
+      <td height="2">&nbsp;</td>
+      <td height="2"> 
+        <div align="right">Telephone :</div>
+      </td>
+      <td height="2">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td> 
+        <div align="right">Fax :</div>
+      </td>
+      <td>&nbsp;</td>
+      <td> 
+        <div align="right">Fax :</div>
+      </td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td> 
+        <div align="right">Cell :</div>
+      </td>
+      <td> 
+        <input type="text" name="textfield6">
+      </td>
+      <td> 
+        <div align="right">Pager :</div>
+      </td>
+      <td> 
+        <input type="text" name="textfield7">
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <div align="right">Email :</div>
+      </td>
+      <td> 
+        <input type="text" name="textfield8">
+      </td>
+      <td> 
+        <div align="right">Experience :</div>
+      </td>
+      <td> 
+        <input type="text" name="textfield9" size="2" maxlength="2">
+        ( in Years )</td>
+    </tr>
+    <tr> 
+      <td> 
+        <div align="right">Educational Qualifications :</div>
+      </td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="javascript:OpenWin('QualificationManager?action=add')">Add 
+        Qualification</a></td>
+    </tr>
+    <tr> 
+      <td colspan="4" align="center"> 
+        <table border="1" cellspacing="0" cellpadding="0">
+          <tr> 
+            <th>Sr.No.</th>
+            <th>Year of Passing</th>
+            <th>Degree/Diploma</th>
+            <th>Percent/Grade</th>
+            <th>University</th>
+          </tr>
+          <tr> 
+            <td colspan="5"> 
+              <div align="center">No qualifications has been entered.</div>
+            </td>
+          </tr>
+        </table>
+        <div align="center"><b>or </b> </div>
+        <table border="1" cellspacing="0" cellpadding="0">
+          <tr> 
+            <th>Sr.No.</th>
+            <th>Year of Passing</th>
+            <th>Degree/Diploma</th>
+            <th>Percent/Grade</th>
+            <th>University</th>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="right">1</div>
+            </td>
+            <td> 
+              <div align="right">1990</div>
+            </td>
+            <td>B.Sc.</td>
+            <td> 
+              <div align="right">65.67</div>
+            </td>
+            <td>Mumbai University</td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="right">2</div>
+            </td>
+            <td> 
+              <div align="right">1993</div>
+            </td>
+            <td>MBA</td>
+            <td> 
+              <div align="right">56.89</div>
+            </td>
+            <td>Pune University</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td colspan="4">I declare that the information supplied above is true and 
+        correct to the best of my knowledge, information and belief. I undertake 
+        to abide by the terms and conditions of the Stock Exchange, Mumbai regarding 
+        the above mentioned certification programme.</td>
+    </tr>
+    <tr> 
+      <td align="right"> Place :</td>
+      <td>Mumbai ( dispay this using Center Login information)</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="right">Date :</td>
+      <td>18-1-2002 (Use system date)</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr align="center"> 
+      <td colspan="4" align="center"> 
+        <div align="center"> 
+          <input type="submit" name="Submit" value="Register">
+          <input type="reset" name="Submit2" value="Reset">
+        </div>
+      </td>
+    </tr>
+  </table>
+</form>
+
+<p align="center">&nbsp;</p>
+</body>
+</html>

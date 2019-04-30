@@ -1,0 +1,560 @@
+<html>
+<!-- #BeginTemplate "/Templates/BseTemplate.dwt" --> 
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Exam Manager</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="alm.css" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<!-- #BeginEditable "BodyRegion" --> 
+<p>
+<center>
+  Define new Exam. 
+  <form action=/rlms/servlet/ExamMasterManager method='post'>
+    <table border=0 cellspacing=1 cellpadding=1>
+      <tr> 
+        <th colspan=2><b>Exam Details</b></th>
+      </tr>
+      <tr> 
+        <td align=right><b>Exam Name :&nbsp;</b></td>
+        <td> 
+          <input type=text name=Exam>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>How would you like Questions to be appeared in the 
+          Exam :&nbsp;</b></td>
+        <td> 
+          <select name="select2">
+            <option value="1">One Question</option>
+            <option value="2">All Questions</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Start Date :&nbsp;</b></td>
+        <td class='small'> 
+          <select name=StartDay>
+            <option value='1' selected>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+            <option value='5'>5</option>
+            <option value='6'>6</option>
+            <option value='7'>7</option>
+            <option value='8'>8</option>
+            <option value='9'>9</option>
+            <option value='10'>10</option>
+            <option value='11'>11</option>
+            <option value='12'>12</option>
+            <option value='13'>13</option>
+            <option value='14'>14</option>
+            <option value='15'>15</option>
+            <option value='16'>16</option>
+            <option value='17'>17</option>
+            <option value='18'>18</option>
+            <option value='19'>19</option>
+            <option value='20'>20</option>
+            <option value='21'>21</option>
+            <option value='22'>22</option>
+            <option value='23'>23</option>
+            <option value='24'>24</option>
+            <option value='25'>25</option>
+            <option value='26'>26</option>
+            <option value='27'>27</option>
+            <option value='28'>28</option>
+            <option value='29'>29</option>
+            <option value='30'>30</option>
+            <option value='31'>31</option>
+          </select>
+          &nbsp;-&nbsp; 
+          <select name=StartMonth>
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+            <option value="4">Apr</option>
+            <option value="5">May</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Aug</option>
+            <option value="9">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+          </select>
+          &nbsp;-&nbsp; 
+          <select name=StartYear>
+            <option value='2000' selected>2000</option>
+            <option value='2001'>2001</option>
+            <option value='2002'>2002</option>
+            <option value='2003'>2003</option>
+            <option value='2004'>2004</option>
+            <option value='2005'>2005</option>
+            <option value='2006'>2006</option>
+            <option value='2007'>2007</option>
+            <option value='2008'>2008</option>
+            <option value='2009'>2009</option>
+            <option value='2010'>2010</option>
+            <option value='2011'>2011</option>
+            <option value='2012'>2012</option>
+            <option value='2013'>2013</option>
+            <option value='2014'>2014</option>
+            <option value='2015'>2015</option>
+            <option value='2016'>2016</option>
+            <option value='2017'>2017</option>
+            <option value='2018'>2018</option>
+            <option value='2019'>2019</option>
+            <option value='2020'>2020</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>End Date :&nbsp;</b></td>
+        <td class='small'> 
+          <select name=EndDay>
+            <option value='1' selected>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+            <option value='5'>5</option>
+            <option value='6'>6</option>
+            <option value='7'>7</option>
+            <option value='8'>8</option>
+            <option value='9'>9</option>
+            <option value='10'>10</option>
+            <option value='11'>11</option>
+            <option value='12'>12</option>
+            <option value='13'>13</option>
+            <option value='14'>14</option>
+            <option value='15'>15</option>
+            <option value='16'>16</option>
+            <option value='17'>17</option>
+            <option value='18'>18</option>
+            <option value='19'>19</option>
+            <option value='20'>20</option>
+            <option value='21'>21</option>
+            <option value='22'>22</option>
+            <option value='23'>23</option>
+            <option value='24'>24</option>
+            <option value='25'>25</option>
+            <option value='26'>26</option>
+            <option value='27'>27</option>
+            <option value='28'>28</option>
+            <option value='29'>29</option>
+            <option value='30'>30</option>
+            <option value='31'>31</option>
+          </select>
+          &nbsp;-&nbsp; 
+          <select name=select>
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">Mar</option>
+            <option value="4">Apr</option>
+            <option value="5">May</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Aug</option>
+            <option value="9">Sep</option>
+            <option value="10">Oct</option>
+            <option value="11">Nov</option>
+            <option value="12">Dec</option>
+          </select>
+          &nbsp;-&nbsp; 
+          <select name=EndYear>
+            <option value='2000' selected>2000</option>
+            <option value='2001'>2001</option>
+            <option value='2002'>2002</option>
+            <option value='2003'>2003</option>
+            <option value='2004'>2004</option>
+            <option value='2005'>2005</option>
+            <option value='2006'>2006</option>
+            <option value='2007'>2007</option>
+            <option value='2008'>2008</option>
+            <option value='2009'>2009</option>
+            <option value='2010'>2010</option>
+            <option value='2011'>2011</option>
+            <option value='2012'>2012</option>
+            <option value='2013'>2013</option>
+            <option value='2014'>2014</option>
+            <option value='2015'>2015</option>
+            <option value='2016'>2016</option>
+            <option value='2017'>2017</option>
+            <option value='2018'>2018</option>
+            <option value='2019'>2019</option>
+            <option value='2020'>2020</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Who is conducting this Exam :&nbsp;</b></td>
+        <td> 
+          <input type=text name=ConductedBy>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Centre :&nbsp;</b></td>
+        <td> 
+          <input type=text name=Centre>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Country :&nbsp;</b></td>
+        <td> 
+          <select name=Country>
+            <option value='AF'>Afghanistan</option>
+            <option value='AL'>Albania</option>
+            <option value='DZ'>Algeria</option>
+            <option value='AS'>American Samoa</option>
+            <option value='AD'>Andorra</option>
+            <option value='AO'>Angola</option>
+            <option value='AI'>Anguilla</option>
+            <option value='AQ'>Antarctica</option>
+            <option value='AG'>Antigua And Barbuda</option>
+            <option value='AR'>Argentina</option>
+            <option value='AM'>Armenia</option>
+            <option value='AW'>Aruba</option>
+            <option value='AU'>Australia</option>
+            <option value='AT'>Austria</option>
+            <option value='AZ'>Azerbaijan</option>
+            <option value='BS'>Bahamas, The</option>
+            <option value='BH'>Bahrain</option>
+            <option value='BD'>Bangladesh</option>
+            <option value='BB'>Barbados</option>
+            <option value='BY'>Belarus</option>
+            <option value='BE'>Belgium</option>
+            <option value='BZ'>Belize</option>
+            <option value='BJ'>Benin</option>
+            <option value='BM'>Bermuda</option>
+            <option value='BT'>Bhutan</option>
+            <option value='BO'>Bolivia</option>
+            <option value='BA'>Bosnia and Herzegovina</option>
+            <option value='BW'>Botswana</option>
+            <option value='BV'>Bouvet Island</option>
+            <option value='BR'>Brazil</option>
+            <option value='IO'>British Indian Ocean Territory</option>
+            <option value='BN'>Brunei</option>
+            <option value='BG'>Bulgaria</option>
+            <option value='BF'>Burkina Faso</option>
+            <option value='BI'>Burundi</option>
+            <option value='KH'>Cambodia</option>
+            <option value='CM'>Cameroon</option>
+            <option value='CA'>Canada</option>
+            <option value='CV'>Cape Verde</option>
+            <option value='KY'>Cayman Islands</option>
+            <option value='CF'>Central African Republic</option>
+            <option value='TD'>Chad</option>
+            <option value='CL'>Chile</option>
+            <option value='CN'>China</option>
+            <option value='CX'>Christmas Island</option>
+            <option value='CC'>Cocos (Keeling) Islands</option>
+            <option value='CO'>Colombia</option>
+            <option value='KM'>Comoros</option>
+            <option value='CG'>Congo</option>
+            <option value='CD'>Congo</option>
+            <option value='CK'>Cook Islands</option>
+            <option value='CR'>Costa Rica</option>
+            <option value='CI'>Cote D'Ivoire (Ivory Coast)</option>
+            <option value='HR'>Croatia (Hrvatska)</option>
+            <option value='CU'>Cuba</option>
+            <option value='CY'>Cyprus</option>
+            <option value='CZ'>Czech Republic</option>
+            <option value='DK'>Denmark</option>
+            <option value='DJ'>Djibouti</option>
+            <option value='DM'>Dominica</option>
+            <option value='DO'>Dominican Republic</option>
+            <option value='TP'>East Timor</option>
+            <option value='EC'>Ecuador</option>
+            <option value='EG'>Egypt</option>
+            <option value='SV'>El Salvador</option>
+            <option value='GQ'>Equatorial Guinea</option>
+            <option value='ER'>Eritrea</option>
+            <option value='EE'>Estonia</option>
+            <option value='ET'>Ethiopia</option>
+            <option value='FK'>Falkland Islands (Islas Malvinas)</option>
+            <option value='FO'>Faroe Islands</option>
+            <option value='FJ'>Fiji Islands</option>
+            <option value='FI'>Finland</option>
+            <option value='FR'>France</option>
+            <option value='GF'>French Guiana</option>
+            <option value='PF'>French Polynesia</option>
+            <option value='TF'>French Southern Territories</option>
+            <option value='GA'>Gabon</option>
+            <option value='GM'>Gambia, The</option>
+            <option value='GE'>Georgia</option>
+            <option value='DE'>Germany</option>
+            <option value='GH'>Ghana</option>
+            <option value='GI'>Gibraltar</option>
+            <option value='GR'>Greece</option>
+            <option value='GL'>Greenland</option>
+            <option value='GD'>Grenada</option>
+            <option value='GP'>Guadeloupe</option>
+            <option value='GU'>Guam</option>
+            <option value='GT'>Guatemala</option>
+            <option value='GN'>Guinea</option>
+            <option value='GW'>Guinea-Bissau</option>
+            <option value='GY'>Guyana</option>
+            <option value='HT'>Haiti</option>
+            <option value='HM'>Heard and McDonald Islands</option>
+            <option value='HN'>Honduras</option>
+            <option value='HK'>Hong Kong S.A.R.</option>
+            <option value='HU'>Hungary</option>
+            <option value='IS'>Iceland</option>
+            <option value='IN' selected>India</option>
+            <option value='ID'>Indonesia</option>
+            <option value='IR'>Iran</option>
+            <option value='IQ'>Iraq</option>
+            <option value='IE'>Ireland</option>
+            <option value='IL'>Israel</option>
+            <option value='IT'>Italy</option>
+            <option value='JM'>Jamaica</option>
+            <option value='JP'>Japan</option>
+            <option value='JO'>Jordan</option>
+            <option value='KZ'>Kazakhstan</option>
+            <option value='KE'>Kenya</option>
+            <option value='KI'>Kiribati</option>
+            <option value='KR'>Korea</option>
+            <option value='KP'>Korea, North</option>
+            <option value='KW'>Kuwait</option>
+            <option value='KG'>Kyrgyzstan</option>
+            <option value='LA'>Laos</option>
+            <option value='LV'>Latvia</option>
+            <option value='LB'>Lebanon</option>
+            <option value='LS'>Lesotho</option>
+            <option value='LR'>Liberia</option>
+            <option value='LY'>Libya</option>
+            <option value='LI'>Liechtenstein</option>
+            <option value='LT'>Lithuania</option>
+            <option value='LU'>Luxembourg</option>
+            <option value='MO'>Macau S.A.R.</option>
+            <option value='MK'>Macedonia</option>
+            <option value='MG'>Madagascar</option>
+            <option value='MW'>Malawi</option>
+            <option value='MY'>Malaysia</option>
+            <option value='MV'>Maldives</option>
+            <option value='ML'>Mali</option>
+            <option value='MT'>Malta</option>
+            <option value='MH'>Marshall Islands</option>
+            <option value='MQ'>Martinique</option>
+            <option value='MR'>Mauritania</option>
+            <option value='MU'>Mauritius</option>
+            <option value='YT'>Mayotte</option>
+            <option value='MX'>Mexico</option>
+            <option value='FM'>Micronesia</option>
+            <option value='MD'>Moldova</option>
+            <option value='MC'>Monaco</option>
+            <option value='MN'>Mongolia</option>
+            <option value='MS'>Montserrat</option>
+            <option value='MA'>Morocco</option>
+            <option value='MZ'>Mozambique</option>
+            <option value='MM'>Myanmar</option>
+            <option value='NA'>Namibia</option>
+            <option value='NR'>Nauru</option>
+            <option value='NP'>Nepal</option>
+            <option value='AN'>Netherlands Antilles</option>
+            <option value='NL'>Netherlands</option>
+            <option value='NC'>New Caledonia</option>
+            <option value='NZ'>New Zealand</option>
+            <option value='NI'>Nicaragua</option>
+            <option value='NE'>Niger</option>
+            <option value='NG'>Nigeria</option>
+            <option value='NU'>Niue</option>
+            <option value='NF'>Norfolk Island</option>
+            <option value='MP'>Northern Mariana Islands</option>
+            <option value='NO'>Norway</option>
+            <option value='OM'>Oman</option>
+            <option value='PK'>Pakistan</option>
+            <option value='PW'>Palau</option>
+            <option value='PA'>Panama</option>
+            <option value='PG'>Papua new Guinea</option>
+            <option value='PY'>Paraguay</option>
+            <option value='PE'>Peru</option>
+            <option value='PH'>Philippines</option>
+            <option value='PN'>Pitcairn Island</option>
+            <option value='PL'>Poland</option>
+            <option value='PT'>Portugal</option>
+            <option value='PR'>Puerto Rico</option>
+            <option value='QA'>Qatar</option>
+            <option value='RE'>Reunion</option>
+            <option value='RO'>Romania</option>
+            <option value='RU'>Russia</option>
+            <option value='RW'>Rwanda</option>
+            <option value='SH'>Saint Helena</option>
+            <option value='KN'>Saint Kitts And Nevis</option>
+            <option value='LC'>Saint Lucia</option>
+            <option value='PM'>Saint Pierre and Miquelon</option>
+            <option value='VC'>Saint Vincent And The Grenadines</option>
+            <option value='WS'>Samoa</option>
+            <option value='SM'>San Marino</option>
+            <option value='ST'>Sao Tome and Principe</option>
+            <option value='SA'>Saudi Arabia</option>
+            <option value='SN'>Senegal</option>
+            <option value='SC'>Seychelles</option>
+            <option value='SL'>Sierra Leone</option>
+            <option value='SG'>Singapore</option>
+            <option value='SK'>Slovakia</option>
+            <option value='SI'>Slovenia</option>
+            <option value='SB'>Solomon Islands</option>
+            <option value='SO'>Somalia</option>
+            <option value='ZA'>South Africa</option>
+            <option value='GS'>South Georgia And Sandwich Islands</option>
+            <option value='ES'>Spain</option>
+            <option value='LK'>Sri Lanka</option>
+            <option value='SD'>Sudan</option>
+            <option value='SR'>Suriname</option>
+            <option value='SJ'>Svalbard And Jan Mayen Islands</option>
+            <option value='SZ'>Swaziland</option>
+            <option value='SE'>Sweden</option>
+            <option value='CH'>Switzerland</option>
+            <option value='SY'>Syria</option>
+            <option value='TW'>Taiwan</option>
+            <option value='TJ'>Tajikistan</option>
+            <option value='TZ'>Tanzania</option>
+            <option value='TH'>Thailand</option>
+            <option value='TG'>Togo</option>
+            <option value='TK'>Tokelau</option>
+            <option value='TO'>Tonga</option>
+            <option value='TT'>Trinidad And Tobago</option>
+            <option value='TN'>Tunisia</option>
+            <option value='TR'>Turkey</option>
+            <option value='TM'>Turkmenistan</option>
+            <option value='TC'>Turks And Caicos Islands</option>
+            <option value='TV'>Tuvalu</option>
+            <option value='UG'>Uganda</option>
+            <option value='UA'>Ukraine</option>
+            <option value='AE'>United Arab Emirates</option>
+            <option value='UK'>United Kingdom</option>
+            <option value='US'>United States</option>
+            <option value='UM'>United States Minor Outlying Islands</option>
+            <option value='UY'>Uruguay</option>
+            <option value='UZ'>Uzbekistan</option>
+            <option value='VU'>Vanuatu</option>
+            <option value='VA'>Vatican City State (Holy See)</option>
+            <option value='VE'>Venezuela</option>
+            <option value='VN'>Vietnam</option>
+            <option value='VG'>Virgin Islands (British)</option>
+            <option value='VI'>Virgin Islands (US)</option>
+            <option value='WF'>Wallis And Futuna Islands</option>
+            <option value='YE'>Yemen</option>
+            <option value='YU'>Yugoslavia</option>
+            <option value='ZM'>Zambia</option>
+            <option value='ZW'>Zimbabwe</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Frequency :&nbsp;</b></td>
+        <td> 
+          <input type=text name=Frequency>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Show Result after Exam ?&nbsp;</b></td>
+        <td> 
+          <select name=ShowResults>
+            <option value=1 selected>Yes</option>
+            <option value=0>No</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <td align=right><b>Allow user to select Test ?&nbsp;</b></td>
+        <td> 
+          <select name=DisplayTests>
+            <option value=1>Yes</option>
+            <option value=0 selected>No</option>
+          </select>
+        </td>
+      </tr>
+      <tr> 
+        <input type=hidden name='action' value='doAdd'>
+        <th colspan=2> 
+          <input type=submit value='Submit'>
+        </th>
+      </tr>
+    </table>
+    <ul>
+      <ul>
+        <blockquote>
+          <div align="left"><br>
+            <b>Note:</b></div>
+        </blockquote>
+        <ul>
+          <li>
+            <div align="left"> You must define atleast <i>one test</i> for an 
+              <i>exam</i>.</div>
+          </li>
+          <li>
+            <div align="left">You must define atleast <i>one section</i> for a 
+              <i>test</i>.<br>
+              <br>
+            </div>
+          </li>
+        </ul>
+      </ul>
+    </ul>
+    <hr size=1>
+  </form>
+  <table border=0 cellspacing=1 cellpadding=1>
+    <tr> 
+      <th colspan=8>Existing Exams</th>
+    </tr>
+    <tr> 
+      <th>Exam</th>
+      <th>Exam Mode</th>
+      <th>Start Date</th>
+      <th>End Date</th>
+      <th>Show Results</th>
+      <th>Display Tests</th>
+      <th>Delete</th>
+      <th>TestDetails</th>
+    </tr>
+    <tr> 
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Update&ExamID=11'>IIT 
+        Test</a></td>
+      <td align="center">One Question</td>
+      <td align="right">1-1-2000</td>
+      <td align="right">1-1-2000</td>
+      <td align="center">No</td>
+      <td align="center">No</td>
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Delete&ExamID=11'>Delete</a></td>
+      <td><a href='ExamManager1.htm'>Test Details</a></td>
+    </tr>
+    <tr> 
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Update&ExamID=12'>Physics</a></td>
+      <td align="center">All Question</td>
+      <td align="right">1-1-2000</td>
+      <td align="right">1-1-2002</td>
+      <td align="center">Yes</td>
+      <td align="center">Yes</td>
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Delete&ExamID=12'>Delete</a></td>
+      <td><a href='ExamManager1.htm'>Test Details</a></td>
+    </tr>
+    <tr> 
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Update&ExamID=1'>Ralm</a></td>
+      <td align="center">One Question</td>
+      <td align="right">1-1-2000</td>
+      <td align="right">1-1-2000</td>
+      <td align="center">Yes</td>
+      <td align="center">Yes</td>
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Delete&ExamID=1'>Delete</a></td>
+      <td><a href='ExamManager1.htm'>Test Details</a></td>
+    </tr>
+    <tr> 
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Update&ExamID=2'>Second 
+        Exam</a></td>
+      <td align="center">One Question</td>
+      <td align="right">30-8-2000</td>
+      <td align="right">30-8-2000</td>
+      <td align="center">No</td>
+      <td align="center">Yes</td>
+      <td><a href='/rlms/servlet/ExamMasterManager?action=Delete&ExamID=2'>Delete</a></td>
+      <td><a href='ExamManager1.htm'>Test Details</a></td>
+    </tr>
+  </table>
+</center>
+<!-- #EndEditable --> 
+</body>
+<!-- #EndTemplate -->
+</html>

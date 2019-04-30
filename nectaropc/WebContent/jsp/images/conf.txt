@@ -1,0 +1,11 @@
+Naming conventions of images used
+
+product	 Level Sr.No	
+
+almbse   01    01
+
+Level	Defn
+
+01	Candidate
+02	Center Manager
+03	CSO		

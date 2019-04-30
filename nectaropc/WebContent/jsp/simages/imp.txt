@@ -1,0 +1,4 @@
+#E1F8F7 : Light Blue For Bg. 225.248.247
+
+#0779A2 : Blue For Text  7.121.162
+#36577E : Dark Blue For Hover Text  54.87.126

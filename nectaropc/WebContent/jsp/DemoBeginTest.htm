@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0052)http://172.16.3.102:8080/almbse/jsp/NewBeginTest.jsp -->
+<!--
+Developer    : Rehan S. Mohammed
+Organisation : Nectar Global Services
+Project Code : ZALM
+DOS	         : 02 - 02 - 2001
+DOE          : 30 - 06 - 2001
+--><HTML><HEAD><TITLE>Nectar Examination</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK
+href="DemoBeginTest_files/alm.css" type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript src="DemoBeginTest_files/common.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+
+	/*	This function is used for checking whether the test
+		has been selected or not.If not the function gives
+		an error message asking user to select a test.
+	*/
+
+	 function checkselect()
+		{
+			var totalb = document.NewBeginTest.total.value;
+			var flag=0;
+
+			if(totalb>1)
+				 {
+					for(var i=0;i<totalb;++i)
+							{
+								var p = "document.NewBeginTest.rtest"+ "[" + i + "]" ;
+								if(eval(p).checked==false)	flag=0;
+								if(eval(p).checked)			flag=1;
+								if(flag==1)					break;
+
+							}
+				 }//end od if(totalb>1)
+				 else
+					 {
+						var p = "document.NewBeginTest.rtest";
+						if(eval(p).checked==false)	 flag=0;
+						if(eval(p).checked)			 flag=1;
+					 }//end of else
+
+					if(flag==0) {alert('Please select the test');return false;}
+					if(flag==1) document.NewBeginTest.submit();
+
+		 }
+
+		function checkselect2()
+		{
+			var totalb = document.NewBeginTest.tsections.value;
+			var flag=0;
+
+			if(totalb>1)
+				 {
+					for(var i=0;i<totalb;++i)
+							{
+								var p = "document.NewBeginTest.rtestname"+ "[" + i + "]" ;
+								if(eval(p).checked==false)	flag=0;
+								if(eval(p).checked)			flag=1;
+								if(flag==1)					break;
+
+							}
+				 }//end od if(totalb>1)
+				 else
+					 {
+						var p = "document.NewBeginTest.rtestname";
+						if(eval(p).checked==false)	 flag=0;
+						if(eval(p).checked)			 flag=1;
+					 }//end of else
+
+					if(flag==0) {alert('Please select the Option');return false;}
+					if(flag==1) {document.NewBeginTest.submit();return false;}
+
+		 }
+</SCRIPT>
+
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY
+onload="MM_preloadImages( '../simages/submit1.gif', '../simages/submit2.gif' )">
+<FORM name=NewBeginTest action="DemoDisplayAllTests.htm" method=get>
+<P>&nbsp;</P>
+<TABLE cellSpacing=1 cellPadding=0 align=center border=0>
+  <TBODY>
+  <TR>
+    <TH bgColor=#330099>Hello, You can get a feel of the test by
+      <BR>going through the following demo.</TH></TR>
+  <TR>
+    <TD><BR>
+      <TABLE cellSpacing=0 cellPadding=0 align=center border=0><INPUT
+        type=hidden value=1 name=total>
+        <TBODY>
+        <TR>
+          <TD><INPUT type=radio value=932 name=rtest><B>Demo</B></TD></TR><INPUT type=hidden value=1 name=dt31>
+        </TBODY></TABLE><BR></TD>
+  <TR>
+    <TH align=middle><INPUT onclick="return checkselect()" type=button value="  Submit  "></TH></TR></TBODY></TABLE>
+	</FORM>
+	</BODY>
+	</HTML>
